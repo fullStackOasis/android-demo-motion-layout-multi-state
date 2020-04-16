@@ -13,8 +13,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // This demo is taken from Android documentation for MotionLayout.
+        // The demo using activity_main is taken from Android documentation for MotionLayout.
+        // See https://developer.android.com/training/constraint-layout/motionlayout/examples#multi-state
         // setContentView(R.layout.activity_main);
+
+        // This other demo is taken from the Reddit thread.
         setContentView(R.layout.activity_second);
 
     }
